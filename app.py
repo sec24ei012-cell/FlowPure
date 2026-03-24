@@ -26,7 +26,7 @@ if st.button("Run AI Analysis"):
     efficiency = prediction[0][0]
     
     # 5. Show Results with Color Logic
-    st.subheader(f"Predicted Efficiency: {efficiency:.2f}%")
+    st.subheader(f"Predicted Efficiency: {efficiency:.2f}%") 
     
     if efficiency > 80:
         st.success("Status: High Efficiency - System Optimal")
